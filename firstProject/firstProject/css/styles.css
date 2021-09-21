@@ -1,0 +1,37 @@
+.chat {
+    width: 400px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-left: 1%;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.messages {
+    width: 400px;
+    height: 400px;
+}
+
+.message {
+    margin-top: 5px;
+    width: 400px;
+    height: 40px;
+}
+
+.sendMessage {
+    margin-top: 5px;
+    width: 400px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+}

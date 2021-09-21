@@ -1,6 +1,27 @@
 <html>
-    <head></head>
+    <head>
+        <title>Chatiq - online chat</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
     <body>
-        <h1>Vsem ku</h1>
+        <div class="chat">
+            <header>
+                <hr />
+                <div class="container">
+                    <img src="img/logo.png" class="logo">
+                    <div class="title">Chatiq</div>
+                </div>
+                <hr />
+            </header>
+            <div class="chatBody">
+                <textarea class="messages"></textarea>
+                <form type="POST">
+                    <input type="text" class="message"/>
+                    <input type="button" class="sendMessage" value="Send message"/>
+                </form>
+            </div>
+            <footer>
+            </footer>
+        </div>
     </body>
 </html>
